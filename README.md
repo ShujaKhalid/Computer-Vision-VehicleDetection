@@ -1,4 +1,4 @@
-#Vehicle Detection Project
+# Vehicle Detection Project
 
 The goals / steps of this project are the following:
 
@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 [image1a]: ./results/cars.PNG
 [image1b]: ./results/not_cars.PNG
-[image3]: ./examples/sliding_windows.PNG
+[image3]: ./results/sliding_windows.PNG
 [image4a]: ./results/res_1.PNG
 [image4b]: ./results/res_2.PNG
 [image4c]: ./results/res_3.PNG
@@ -33,7 +33,11 @@ The code for this step is contained in the first code cell of the IPython notebo
 
 I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
 
-![alt text][image1a] ![alt text][image1b]
+### Vehicles
+![alt text][image1a] 
+
+### Non-vehicles
+![alt text][image1b]
 
 I then explored different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.
 
@@ -55,11 +59,11 @@ During the implementation of the algorithm, a sliding window search was done on 
 
 Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a decent result.  Below are some example images (Images on the left are the processed images and amges on the right are heatmaps after a threshold has been applied) :
 
-![alt text][image4]  ![alt text][image4a]
-![alt text][image4]  ![alt text][image4b]
-![alt text][image4]  ![alt text][image4c]
-![alt text][image4]  ![alt text][image4d]
-![alt text][image4]  ![alt text][image4e]
+![alt text][image4a]  ![alt text][image4aa]
+![alt text][image4b]  ![alt text][image4bb]
+![alt text][image4c]  ![alt text][image4cc]
+![alt text][image4d]  ![alt text][image4dd]
+![alt text][image4e]  ![alt text][image4ee]
 
 ---
 
