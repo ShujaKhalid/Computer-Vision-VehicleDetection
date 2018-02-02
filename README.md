@@ -19,10 +19,10 @@ The goals / steps of this project are the following:
 [image4d]: ./results/res_4.PNG
 [image4e]: ./results/res_5.PNG
 [image4aa]: ./results/res_1a.PNG
-[image4bb]: ./results/res_2b.PNG
-[image4cc]: ./results/res_3c.PNG
-[image4dd]: ./results/res_4d.PNG
-[image4ee]: ./results/res_5e.PNG
+[image4bb]: ./results/res_2a.PNG
+[image4cc]: ./results/res_3a.PNG
+[image4dd]: ./results/res_4a.PNG
+[image4ee]: ./results/res_5a.PNG
 [video1]: ./final_project_video.mp4
 
 ---
